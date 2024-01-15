@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap");
+
+/* shared styles */
+* {
+  font-family: "Mulish", sans-serif;
+  --text-primary: rgba(19, 19, 24, 0.7);
+  --text-secondary: #5a5a5d;
+  --heading-primary: #131318;
+  --orange-color: #ff5400;
+}
+.big-title-font {
+  color: var(--heading-primary);
+  font-weight: 800;
+}
+
+header,
+main {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+main section {
+  margin-bottom: 100px;
+}
+/* shared styles ends */
+
+/* header-section style starts here */
+
+/* nav  starts here */
+.header-section .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.brand-logo {
+  width: 48px;
+  height: 56px;
+}
+.brand-name {
+  width: 265px;
+  font-size: 2.2rem;
+}
+.brand-name > span {
+  color: var(--orange-color);
+}
+.nav-links-container {
+  width: 506px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links-container .nav-link {
+  color: #424247;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+.nav-link:first-child {
+  color: var(--orange-color);
+}
+/* nav ends here */
