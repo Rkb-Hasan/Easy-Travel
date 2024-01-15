@@ -15,6 +15,7 @@
 }
 .big-title-font {
   color: var(--heading-primary);
+  font-size: 2.5rem;
   font-weight: 800;
 }
 .gray-font {
@@ -202,4 +203,40 @@ main section {
   color: #fff;
   font-size: 1.6rem;
   font-weight: 800;
+}
+/* destination section ends here */
+
+/* choose-us section starts here */
+
+.choose-text-container {
+  width: 643px;
+  text-align: center;
+  margin: 0 auto 48px;
+}
+.choose-title {
+  margin-bottom: 25px;
+}
+.choose-flex-container {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.choose-flex-item {
+  width: 572px;
+  text-align: left;
+  padding: 32px 55px 32px 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.choose-flex-item:nth-child(2) {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.choose-flex-item img {
+  margin-bottom: 32px;
+}
+.choose-flex-item h3 {
+  margin-bottom: 15px;
 }
