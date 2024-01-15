@@ -1,16 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap");
 
 /* shared styles */
-* {
-  font-family: "Mulish", sans-serif;
+:root {
   --text-primary: rgba(19, 19, 24, 0.7);
   --text-secondary: #5a5a5d;
   --heading-primary: #131318;
   --orange-color: #ff5400;
 }
+* {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .big-title-font {
   color: var(--heading-primary);
   font-weight: 800;
+}
+
+body {
+  margin-top: 30px;
 }
 
 header,
@@ -66,3 +75,62 @@ main section {
   color: var(--orange-color);
 }
 /* nav ends here */
+
+/* banner section starts here */
+.banner {
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../Images/banner-bg.png);
+  margin-top: 50px;
+}
+.banner-content {
+  width: 800px;
+  padding: 106px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.banner-description {
+  margin: 24px 0 48px 0;
+  color: #fff;
+  font-weight: 400;
+  line-height: 26px;
+}
+.banner-form {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15px;
+}
+
+.form-input {
+  flex: 1;
+  padding: 16px;
+  width: (calc(100% - 88px) / 4);
+  border: 0;
+  border-radius: 8px;
+  background: #fff;
+  color: rgba(19, 19, 24, 0.5);
+  font-weight: 400;
+}
+/* placeholderrrrr */
+.form-btn {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+  border: 0;
+}
+/* banner section ends here */
+/* header-section style starts here*/
