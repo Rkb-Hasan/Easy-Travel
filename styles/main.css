@@ -151,7 +151,7 @@ main section {
   font-size: 1rem;
 }
 /* banner section ends here */
-/* header style starts here*/
+/* header style ends here*/
 
 /* main styles starts here */
 /* popular-tours section starts here */
@@ -177,10 +177,16 @@ main section {
   border-radius: 8px;
   background-color: #ff5400;
   color: #fff;
-  padding: 14px 35px;
+  padding: 15px 28px;
+  font-size: 1.25rem;
+  font-weight: 800;
 }
 .popular-list > li {
-  margin-bottom: 25px;
+  margin: 0 0 25px 15px;
+}
+
+.popular-image-container img {
+  width: 100%;
 }
 /* popular section ends here */
 /* destination section starts here */

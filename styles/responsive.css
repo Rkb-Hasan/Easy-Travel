@@ -26,6 +26,7 @@
   .light-gray-font,
   .gray-font {
     font-size: 0.875rem;
+    line-height: 24px;
   }
   /* navbar styles */
   .nav-links-container {
@@ -62,4 +63,22 @@
     width: calc(100% - 30px);
     margin: 0 auto;
   }
+  /* popular-tours styles */
+  .popular-tours {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .popular-section-content {
+    width: 100%;
+    text-align: left;
+    gap: 16px;
+  }
+  .popular-list > li {
+    margin-bottom: 12px;
+  }
+  .popular-list > li:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Destination styles */
 }
