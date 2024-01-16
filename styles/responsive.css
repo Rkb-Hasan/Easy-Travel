@@ -1,11 +1,9 @@
-/* responsive styles */
+/* responsive styles small device */
 
 /* small devices */
 @media screen and (max-width: 600px) {
-  /* shared stylesS */
-  /* :root {
-    font-size: 10px;
-  } */
+  /* shared styleS */
+
   body {
     margin-top: 24px;
   }
@@ -57,7 +55,6 @@
   .banner-form {
     width: 95%;
     margin: 0 auto;
-    /* margin-top: 32px; */
     flex-direction: column;
     padding: 20px 0;
     gap: 16px;
@@ -101,6 +98,7 @@
     border-radius: 10px;
     object-fit: cover;
   }
+
   /* choose us styles */
   .choose-text-container {
     width: 309px;
@@ -109,6 +107,35 @@
   .choose-flex-container {
     gap: 16px;
   }
+
+  /* deals and discounts styles */
+  .deals-text-container {
+    width: 309px;
+    margin: 24px auto 16px;
+  }
+  .discount-item {
+    padding: 187px 16px 16px 16px;
+  }
+  .discount-box {
+    padding: 25px;
+  }
+  .box-up-line:first-child {
+    display: block;
+  }
+
+  /* simple-place styles */
+  .simple-place {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .simple-place-item {
+    margin-left: 20px;
+  }
+  .simple-place-text-container,
+  .simple-place-video-container video {
+    width: 100%;
+  }
+
   /* newsletter styles */
   .newsletter {
     width: 100%;
