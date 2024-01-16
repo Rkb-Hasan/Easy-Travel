@@ -104,4 +104,27 @@
   .choose-flex-container {
     gap: 16px;
   }
+  /* newsletter styles */
+  .newsletter {
+    width: 100%;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 25px;
+    justify-content: center;
+  }
+  .newsletter-text-container {
+    width: 100%;
+  }
+  .newsletter-img-container {
+    width: 100%;
+  }
+  .discount-badge {
+    width: 215px;
+    padding: 15px 20px;
+    top: 74%;
+    left: 53.5%;
+  }
+  .badge-percent {
+    font-size: 1.32rem;
+  }
 }

@@ -254,6 +254,7 @@ main section {
 .choose-flex-item h3 {
   margin-bottom: 15px;
 }
+
 /* newsletter section starts here */
 .newsletter {
   display: flex;
@@ -299,11 +300,13 @@ hr {
 }
 .newsletter-img-container {
   width: 675px;
-  border-radius: 18px;
   position: relative;
-  background-image: url("../Images/Rectangle 8 (1).png");
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+.newsletter-img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  object-fit: cover;
 }
 .discount-badge {
   position: absolute;
