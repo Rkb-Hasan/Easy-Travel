@@ -123,6 +123,9 @@
     display: block;
   }
 
+  .right-text {
+    margin-top: 20px;
+  }
   /* simple-place styles */
   .simple-place {
     flex-direction: column;
