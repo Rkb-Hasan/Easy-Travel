@@ -30,16 +30,20 @@
     line-height: 24px;
   }
   /* navbar styles */
+  .brand {
+    width: 177px;
+  }
+  .brand-logo {
+    width: 52px;
+    height: 34px;
+  }
   .nav-links-container {
     display: none;
   }
 
-  /* .brand {
-    width: 100%;
+  .icon-container {
+    display: block;
   }
-  .brand::after {
-    content: "ajbhs";
-  } */
 
   /* banner styles */
   .banner-content {

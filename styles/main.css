@@ -57,7 +57,6 @@ main section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
 }
 .brand-logo {
   width: 70px;
@@ -84,6 +83,9 @@ main section {
 }
 .nav-link:first-child {
   color: var(--orange-color);
+}
+.icon-container {
+  display: none;
 }
 /* nav ends here */
 
