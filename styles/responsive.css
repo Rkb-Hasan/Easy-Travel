@@ -1,0 +1,65 @@
+/* responsive styles */
+
+/* small devices */
+@media screen and (max-width: 600px) {
+  /* shared stylesS */
+  /* :root {
+    font-size: 10px;
+  } */
+  body {
+    margin-top: 24px;
+  }
+  header,
+  main {
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+  }
+  header,
+  main,
+  main section {
+    margin-bottom: 24px;
+  }
+  .big-title-font,
+  .brand-name {
+    font-size: 1.25rem;
+  }
+  .light-gray-font,
+  .gray-font {
+    font-size: 0.875rem;
+  }
+  /* navbar styles */
+  .nav-links-container {
+    display: none;
+  }
+
+  /* .brand {
+    width: 100%;
+  }
+  .brand::after {
+    content: "ajbhs";
+  } */
+
+  /* banner styles */
+  .banner-content {
+    width: 98%;
+    margin: 0 auto;
+    padding-bottom: 35px;
+  }
+  .banner-title {
+    font-size: 1.5rem;
+  }
+  .banner-form {
+    width: 95%;
+    margin: 0 auto;
+    /* margin-top: 32px; */
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 16px;
+  }
+  .banner-form input[type="text"],
+  .banner-form select,
+  .form-btn {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+  }
+}
