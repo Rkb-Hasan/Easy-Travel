@@ -53,19 +53,18 @@ main section {
   align-items: center;
 }
 .brand {
-  width: 265px;
+  width: 285px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: 1px solid black;
 }
 .brand-logo {
-  width: 48px;
+  width: 70px;
   height: 56px;
   margin-right: 15px;
 }
 .brand-name {
-  width: 265px;
   font-size: 2.2rem;
 }
 .brand-name > span {
@@ -341,6 +340,7 @@ hr {
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;
+  gap: 10px;
 }
 .footer-brand .brand-name {
   font-size: 2rem;

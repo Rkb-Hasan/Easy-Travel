@@ -24,7 +24,8 @@
     font-size: 1.25rem;
   }
   .light-gray-font,
-  .gray-font {
+  .gray-font,
+  .footer-rights {
     font-size: 0.875rem;
     line-height: 24px;
   }
@@ -121,10 +122,25 @@
   .discount-badge {
     width: 215px;
     padding: 15px 20px;
-    top: 74%;
+    top: 76%;
     left: 53.5%;
   }
   .badge-percent {
     font-size: 1.32rem;
+  }
+  /* footer section */
+  .footer-section {
+    padding: 33px 0;
+  }
+  .footer-container {
+    width: 290px;
+    margin: 0 auto;
+  }
+  .footer-brand .brand-name {
+    font-size: 1.32rem;
+  }
+  .footer-brand-logo {
+    width: 40px;
+    height: 33px;
   }
 }
