@@ -96,4 +96,12 @@
     border-radius: 10px;
     object-fit: cover;
   }
+  /* choose us styles */
+  .choose-text-container {
+    width: 309px;
+    margin: 0 auto 16px;
+  }
+  .choose-flex-container {
+    gap: 16px;
+  }
 }
