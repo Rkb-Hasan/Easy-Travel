@@ -330,6 +330,24 @@ hr {
   font-weight: 800;
   font-size: 2rem;
 }
+
+/* bonus section */
+/* sponsors section starts here */
+.sponsors-section {
+  text-align: center;
+}
+.sponsor-flex-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* .sponsors-section .sponsor {
+  width: 55px;
+  height: 30px;
+} */
+/* sponsors section ends here */
+
 /* footer-section starts here */
 
 .footer-section {

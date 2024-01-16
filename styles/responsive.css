@@ -132,6 +132,22 @@
   .badge-percent {
     font-size: 1.32rem;
   }
+
+  /* bonus section */
+  /* sponsors section */
+  .sponsors-section {
+    padding: 10px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+    border-radius: 15px;
+  }
+  .sponsor-flex-container {
+    margin-top: 24px;
+    flex: wrap;
+    flex-direction: column;
+    gap: 15px;
+  }
+
   /* footer section */
   .footer-section {
     padding: 33px 0;
